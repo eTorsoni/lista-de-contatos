@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc6c6;
+    margin: 40px;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+}
+
+#lista-contatos {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+#lista-contatos li {
+    background: #ffd6d6;
+    margin-bottom: 12px;
+    padding: 16px 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+    font-size: 1.1em;
+}

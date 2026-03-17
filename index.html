@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Contatos</title>
+</head>
+<body>
+    <h1>Lista de Contatos</h1>
+    <ul id="lista-contatos"></ul>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="contatos.js"></script>
+    <script>
+        // Seleciona o elemento UL
+        const ul = document.getElementById('lista-contatos');
+
+        contatos.forEach(contato => {
+            const li = document.createElement('li');
+            li.textContent = `${contato.nome} | ${contato.telefone} | ${contato.email}`;
+            ul.appendChild(li);
+        });
+    </script>
+</body>
+</html>
